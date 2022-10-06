@@ -1,0 +1,30 @@
+.container{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  
+  text-align: center;
+  overflow: hidden;
+  padding-left: 1.5px;
+  padding-right: 1.5px;
+  font-family: 'Rubik Dirt', cursive;
+color: antiquewhite;  
+
+}
+html { 
+    background: url(icons/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  .notification{
+    color: red;
+    
+  }
